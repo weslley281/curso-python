@@ -1,0 +1,5 @@
+print(f"O valor absoluto de 20 é {abs(20)}")
+print(f"O valor arredondado de 5.2 é {round(5.2)}")
+print(f"O valor arredondado de 5.8 é {round(5.8)}")
+print(f"O valor arredondado de 5.8895 com duas casa decimais é {round(5.8895, 2)}")
+#print(f"A poência de 5 elevado por 2 é {pow(5, 2)}")
