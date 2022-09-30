@@ -21,3 +21,6 @@ print(f'remove um item: {carteira}')
 
 carteira.pop()
 print(f'remove o ultimo item: {carteira}')
+
+carteira.clear()
+print(f'remove todos itemsa: {carteira}')
