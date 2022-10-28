@@ -1,8 +1,8 @@
-def fibonacci():
+def fibonacci(limit=100):
     penultimate = 0
     last = 1
     print(f'{penultimate}, {last}', end=',')
-    while True:
+    while last < limit:
         next = penultimate + last
         print(next, end=',')
         penultimate = last
@@ -11,3 +11,4 @@ def fibonacci():
 
 if __name__ == '__main__':
     fibonacci()
+    
